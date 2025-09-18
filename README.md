@@ -1,11 +1,11 @@
-
-# 📊 Prédiction du Churn Client - Projet 3 AIA
+```bash
+# Prédiction du Churn Client - Projet 3 AIA
 
 > Projet de Machine Learning supervisé visant à prédire les clients susceptibles de résilier leur abonnement dans le secteur des télécommunications.
 
 ---
 
-## 🚀 Objectifs du projet
+##  Objectifs du projet
 
 - Comprendre les facteurs influençant le **churn** (désabonnement client)
 - Construire un **modèle de classification performant**
@@ -15,7 +15,8 @@
 
 ---
 
-## 🗂️ Architecture du projet
+## Architecture du projet
+
 PROJET_3_AIA/
 │
 ├── data/
@@ -32,7 +33,8 @@ PROJET_3_AIA/
 ├── README.md # Présentation du projet
 └── .gitignore
 
-## 📦 Données utilisées
+
+##  Données utilisées
 
 - **Dataset** : Telco Customer Churn
 - **Source** : [Kaggle – Telco Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
@@ -40,9 +42,9 @@ PROJET_3_AIA/
 
 ---
 
-## 🔧 Environnement & installation
+## Environnement & installation
 
-```bash
+
 # 1. Cloner le projet
 git clone https://github.com/space9cowboy/Projet_3_AIA.git
 cd PROJET_3_AIA
@@ -56,24 +58,24 @@ source .venv/bin/activate        # Linux/Mac
 pip install -r requirements.txt
 
 
-📈 Modèles testés & performances
+Modèles testés & performances
 Modèle	Accuracy	Recall	F1-score	AUC
 Régression Logistique	    0.80	0.72	0.70	0.84
 Arbre de Décision	        0.78	0.69	0.68	0.82
 Random Forest	            0.85	0.75	0.74	0.88
 Random Forest optimisé	    0.87	0.78	0.76	0.90
 
-📌 Modèle retenu : Random Forest optimisé via GridSearchCV
+Modèle retenu : Random Forest optimisé via GridSearchCV
 Bon compromis entre détection des churns et limitation des faux positifs.
 
-## 📊 Variables les plus influentes
+## Variables les plus influentes
 
 - `Contract_Two year`, `tenure`, `TechSupport`, `MonthlyCharges`
 - ➤ Les clients sans engagement, récents, et sans support technique sont plus à risque de churner.
 
 ---
 
-## 💡 Recommandations
+## Recommandations
 
 - Cibler les **clients récents avec contrats mensuels**
 - Proposer des **services de support technique / sécurité** pour fidéliser
