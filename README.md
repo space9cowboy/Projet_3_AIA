@@ -28,7 +28,7 @@ PROJET_3_AIA/
 │ ├── EDA.ipynb # Analyse exploratoire (churn vs variables)
 │ ├── modeling.ipynb # Modélisation, évaluation, visualisation
 │
-├── reports/ # (À compléter) Rapport final ou visuels
+├── reports/ 
 ├── requirements.txt # Liste des bibliothèques Python
 ├── README.md # Présentation du projet
 └── .gitignore
