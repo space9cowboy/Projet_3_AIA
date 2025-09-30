@@ -16,6 +16,7 @@
 
 ## Architecture du projet
 
+```bash
 PROJET_3_AIA/
 │
 ├── .venv/                  # environnement virtuel
