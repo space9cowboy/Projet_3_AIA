@@ -14,26 +14,6 @@
 
 ---
 
-## Architecture du projet
-
-```bash
-PROJET_3_AIA/
-│
-├── .venv/                  # environnement virtuel
-├── data/                   # données (raw + processed)
-├── notebooks/              # notebooks Jupyter (preprocessing, EDA, modeling)
-├── reports/                # rapports et résultats
-├── src/
-│   └── dashboard/          # code pour le dashboard
-│       └── streamlit_app.py
-│
-├── requirements.txt        # dépendances Python
-├── README.md               # présentation du projet
-└── .gitignore
-
-
----
-
 ## Données utilisées
 
 - **Dataset** : Telco Customer Churn  
