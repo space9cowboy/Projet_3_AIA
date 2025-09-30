@@ -99,7 +99,7 @@ elif page == "Vue d'ensemble des données":
             })
             st.dataframe(col_info, use_container_width=True)
 
-            # --- Nouveau : Pie chart du churn ---
+            # --- Pie chart du churn ---
             st.subheader("Répartition du churn (Oui/Non)")
             if "Churn" in df.columns:
                 churn_counts = df["Churn"].value_counts()
